@@ -9,5 +9,6 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 git clone https://github.com/c-nico/DokuWiki.git
 cd DokuWiki
+sudo chown -R www-data:www-data data/
 sudo docker-compose up
 ```
